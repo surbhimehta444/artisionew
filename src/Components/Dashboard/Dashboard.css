@@ -1,0 +1,84 @@
+.back-cont{
+    width:100%;
+    height:625px;
+}
+.head-start{
+    width:100%;
+    height: 80px;
+    background-color:#2d001d;
+    z-index:1;
+    position: absolute;
+}
+.sidebar{
+    width:18%;
+    height:625px;
+    background-color:#2d001d;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+.portion-one{
+    width:100%;
+    height:90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-box{
+    width:28%;
+    height: 100%;
+    background-image: url("../../assets/images/brush.svg");
+    background-size: 5rem;
+    background-repeat: no-repeat;
+}
+.logo-text{
+    width:72%;
+    height: 100%;
+    color: white;
+    font-family:Rancho,cursive;
+     text-align: center;
+     font-size: 4rem;
+}
+.portion-two{
+    width: 100%;
+    height:600px;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+.cover{
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover :hover{
+    cursor: pointer;
+  background-color:#C85573;
+}
+.backbox{
+    width:80%;
+    height:100%;
+    display: flex;
+    justify-content:space-between;
+}
+.icon-box{
+    width:40%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem;
+    color: white;
+}
+.icon-name{
+    width:60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+}
